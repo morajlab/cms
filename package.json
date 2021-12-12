@@ -1,0 +1,29 @@
+{
+  "name": "cms",
+  "private": true,
+  "version": "0.0.1-alpha",
+  "description": "Strapi CMS for Moraj Lab content management",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.0.0",
+    "@strapi/plugin-users-permissions": "4.0.0",
+    "@strapi/plugin-i18n": "4.0.0",
+    "sqlite3": "5.0.2"
+  },
+  "author": {
+    "name": "Morteza Jamali",
+    "email": "mortezajamali4241@gmail.com",
+    "url": "https://moraj.ir"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
